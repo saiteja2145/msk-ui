@@ -1,6 +1,6 @@
 import React from 'react';
 
-const useStyles = (theme) => ({
+const useStyles = () => ({
   root: {
     backgroundColor: 'white',
     padding: 20
