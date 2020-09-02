@@ -39,13 +39,13 @@ const properties = {
           startDate: {
             name: 'Start Date',
             type: propertyTypes.STRING,
-            value: 'mm-yyyy',
+            value: 'Jan- 2017',
             required: true
           },
           endDate: {
             name: 'End Date',
             type: propertyTypes.STRING,
-            value: 'mm-yyyy',
+            value: 'Oct- 2019',
             required: false
           },
           description: {
