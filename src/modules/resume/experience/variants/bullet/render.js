@@ -38,7 +38,7 @@ const Basic = ({ theme, headlineText, experience }) => {
         <h3 style={styles.experienceItem}>{experienceDetails.company.value}</h3>
         <h3 style={styles.experienceItem}>
           <i>
-            {`${experienceDetails.startDate.value} - ${
+            {`${experienceDetails.startDate.value} to ${
               experienceDetails.endDate.value || 'Current'
             }`}
           </i>
